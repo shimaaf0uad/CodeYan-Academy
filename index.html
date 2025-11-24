@@ -69,7 +69,6 @@
                         'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
                         'blob': 'blob 10s infinite',
                         'shine': 'shine 3s infinite',
-                        'progress': 'progress 2s ease-out forwards',
                     },
                     keyframes: {
                         float: {
@@ -93,10 +92,6 @@
                         shine: {
                             '0%': { left: '-100%' },
                             '100%': { left: '200%' },
-                        },
-                        progress: {
-                            '0%': { width: '0%' },
-                            '100%': { width: '85%' },
                         }
                     }
                 }
@@ -199,7 +194,7 @@
             <span class="social-tooltip">لينكدإن</span>
         </a>
         <!-- Facebook -->
-        <a href="https://www.facebook.com/share/1GgA6aiKxh/" target="_blank" class="group relative w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center text-social-facebook hover:bg-social-facebook hover:text-white hover:scale-110 transition duration-300 border border-gray-100">
+        <a href="https://www.facebook.com/share/17QrGQZu1m/" target="_blank" class="group relative w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center text-social-facebook hover:bg-social-facebook hover:text-white hover:scale-110 transition duration-300 border border-gray-100">
             <i class="fa-brands fa-facebook-f text-xl"></i>
             <span class="social-tooltip">فيسبوك</span>
         </a>
@@ -228,7 +223,7 @@
                 <!-- Desktop Menu -->
                 <div class="hidden lg:flex items-center space-x-6 space-x-reverse">
                     <a href="#features" class="text-sm font-bold text-gray-600 hover:text-brand-600 transition px-3 py-2 hover:bg-gray-50 rounded-lg">مميزاتنا</a>
-                    <a href="#track-main" class="text-sm font-bold text-gray-600 hover:text-brand-600 transition px-3 py-2 hover:bg-gray-50 rounded-lg">المسارات</a>
+                    <a href="#track-main" class="text-sm font-bold text-gray-600 hover:text-brand-600 transition px-3 py-2 hover:bg-gray-50 rounded-lg">المسار الأساسي</a>
                     <a href="#pricing" class="text-sm font-bold text-gray-600 hover:text-brand-600 transition px-3 py-2 hover:bg-gray-50 rounded-lg">الأسعار</a>
                     <a href="#community" class="text-sm font-bold text-gray-600 hover:text-brand-600 transition px-3 py-2 hover:bg-gray-50 rounded-lg">مجتمعنا</a>
                     
@@ -267,7 +262,7 @@
                 <div class="flex justify-around p-4 bg-gray-50 rounded-xl mt-2 border border-gray-100">
                     <a href="https://www.youtube.com/@Shimaa-l1w" target="_blank" class="text-social-youtube text-2xl hover:scale-110 transition"><i class="fa-brands fa-youtube"></i></a>
                     <a href="https://www.linkedin.com/in/shimaafouad/" target="_blank" class="text-social-linkedin text-2xl hover:scale-110 transition"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.facebook.com/share/1GgA6aiKxh/" target="_blank" class="text-social-facebook text-2xl hover:scale-110 transition"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/share/17QrGQZu1m/" target="_blank" class="text-social-facebook text-2xl hover:scale-110 transition"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://whatsapp.com/channel/0029Vb7Ouys9Gv7QQf3gO42n" target="_blank" class="text-social-whatsapp text-2xl hover:scale-110 transition"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
                 
@@ -280,6 +275,7 @@
 
     <!-- Hero Section -->
     <header class="relative pt-32 pb-16 lg:pt-48 lg:pb-32 overflow-hidden bg-gradient-to-b from-brand-50/60 to-white">
+        <!-- Background Blobs -->
         <div class="absolute top-0 right-0 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-brand-100/50 rounded-full blur-3xl -z-10 animate-blob"></div>
         <div class="absolute bottom-0 left-0 w-[300px] md:w-[500px] h-[300px] md:h-[500px] bg-accent-100/50 rounded-full blur-3xl -z-10 animate-blob" style="animation-delay: 2s"></div>
 
@@ -641,7 +637,7 @@
                     <div class="my-4">
                         <span class="text-4xl font-black text-gray-900 font-sans">800 EGP</span>
                         <span class="text-gray-400 line-through text-sm block">1000 EGP</span>
-                        <span class="text-xs text-gray-500 font-bold">شهرياً</span>
+                        <span class="text-xs text-gray-500 font-bold">للكورس كاملاً</span>
                     </div>
                     <div class="bg-blue-50 text-blue-700 p-2 rounded-lg text-center font-bold text-xs mb-6 border border-blue-100">
                         🔥 عرض الصحاب: 700 ج للفرد
@@ -798,14 +794,18 @@
                         <div class="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center"><i class="fa-solid fa-code text-lg"></i></div>
                         <span class="text-xl font-bold font-sans">Code Yan</span>
                     </div>
-                    <p class="leading-relaxed max-w-xs mx-auto md:mx-0">بوابتك لعالم البرمجة. تعليم عملي وممتع.</p>
+                    <p class="leading-relaxed max-w-xs mx-auto md:mx-0">
+                        أكاديمية Code Yan ليست مجرد منصة تعليمية، بل هي شريكك الاستراتيجي في رحلة التحول الرقمي. ندمج الخبرة العملية بالأسس الأكاديمية لنخرج جيلاً قادراً على قيادة المستقبل التكنولوجي.
+                    </p>
                 </div>
                 
                 <div>
-                    <h4 class="text-white font-bold mb-4">روابط سريعة</h4>
+                    <h4 class="text-white font-bold mb-4">تصفح الأكاديمية</h4>
                     <ul class="space-y-2">
-                        <li><a href="https://forms.gle/hy42VzpJc2i6DYxn7" class="hover:text-white transition">حجز كورس Front-End</a></li>
-                        <li><a href="https://forms.gle/195BFRCXQrsEcDcz7" class="hover:text-white transition">تسجيل اهتمام (Tracks)</a></li>
+                        <li><a href="#features" class="hover:text-white transition">عن الأكاديمية</a></li>
+                        <li><a href="#track-main" class="hover:text-white transition">المسار الاحترافي (Front-End)</a></li>
+                        <li><a href="#future-tracks" class="hover:text-white transition">مسارات المستقبل (قريباً)</a></li>
+                        <li><a href="#pricing" class="hover:text-white transition">باقات الاستثمار الذكي</a></li>
                     </ul>
                 </div>
 
@@ -819,7 +819,7 @@
                             </a>
                         </li>
                         <li><a href="https://whatsapp.com/channel/0029Vb7Ouys9Gv7QQf3gO42n" class="hover:text-green-400 transition flex items-center gap-2"><i class="fa-solid fa-bullhorn"></i> القناة الرسمية</a></li>
-                        <li><a href="mailto:shimaa.fouad002@gmail.com" class="hover:text-brand-400 transition flex items-center gap-2"><i class="fa-solid fa-envelope"></i> shimaa.fouad002@gmail.com</a></li>
+                        <li><a href="https://www.facebook.com/share/17QrGQZu1m/" class="hover:text-blue-500 transition flex items-center gap-2"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
                         <li><a href="https://www.linkedin.com/in/shimaafouad/" class="hover:text-blue-400 transition flex items-center gap-2"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
                         <li><a href="https://www.youtube.com/@Shimaa-l1w" class="hover:text-red-500 transition flex items-center gap-2"><i class="fa-brands fa-youtube"></i> YouTube</a></li>
                     </ul>
